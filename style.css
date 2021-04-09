@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: flex; /* ACTIVAMOS FLEXBOX */
+    flex-wrap: wrap; /* POR DEFECTO FLEXBOX PONE LAS COSAS EN UNA SOLA LINEA  */
+    /* CON ESTA OPCION OCUPA MULTIPLES LINEAS */
+    justify-content: center; /* CENTRAMOS */
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 3rem;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px;
+}
+img{
+    width: 450px;
+    height:300px;
+    margin: 10px;
+    box-shadow: 2px 2px 4px #888888;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.1);
+  
+}
